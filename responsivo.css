@@ -152,57 +152,54 @@
 
     .content-sobre p{ text-align: justify; font-size: 15px;; width:450px;color: white;text-shadow: 3px 3px 1px black; text-wrap: wrap;padding-left: 20px; display: block ;}
 
-    .sobre-nos img{ width: 450px; height: 350px; margin-top: 30px;}
-
+    .sobre-nos img{ width: 450px; height: 350px; margin-top: 30px;}}
 
     /* 425*/
-    @media screen and (min-width:425px){ 
 
-        .menu-itens{height: 80px;display: flex; gap:10px; margin-top: 25px; padding: 10px; margin-right:-1px;}
-    
-        .menu-itens a{font-size: 13px; }
-    
-        .btn{padding: 10px;background-color: #2cc76a;border-radius: 15px; opacity: .9;box-shadow: 2px 2px 2px black}
-    
-        .banner-principal h1{text-align: center; color: #fff; font-weight: bolder; font-size: 40px;text-shadow: 5px 5px 5px black; font-family: 'Roboto', sans-serif; margin-top:100px; padding-top: 100px;}
-    
-        .banner-principal p{ text-align: center; color: #fff; font-weight: bolder; font-size: 23px;text-shadow: 5px 5px 5px black; font-family: 'Roboto', sans-serif;margin-top: 30px ;}
-    
-        .logo {width: 35px; height: 35px; margin-top: 27px; margin-left: 15px; margin-bottom: 15px; display: none;}
-    
-        .beneficios ul{display: grid;grid-template-columns: repeat(auto-fit, minmax(30px, 200px));margin-left:-10px; }
-        
-        .beneficios li{flex:1 ; width:190px;margin:0 20px; gap:-20px; margin: 0 auto; justify-content: center; text-align: center; margin-left: 145px;}
-    
-        .beneficios p{color: black; line-height:23px; margin-bottom: 15px;text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.507); font-family: 'Roboto', sans-serif; display:none;}
-        
-        .beneficios h2{color: #202b34; text-shadow: 1px 1px 0px white; margin-bottom:15px; margin-top: 15px;font-weight: bolder; font-family: 'Roboto', sans-serif; font-size:30px;}
-        
-        .beneficios p{color: black;text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.507); font-family: 'Roboto', sans-serif; font-size: 16px;}
-        
-        .content-sobre p{ text-align: center; font-size: 14px; width:400px;color: white;text-shadow: 3px 3px 1px black; text-wrap: wrap; padding-left: 20px;}
-    
-        .sobre-nos img{ width: 350px; height: 350px; margin-top:20px; margin-left:20px; border: 4px solid #c4ceda ; margin-right:20px;}
-    
-        #contato textarea{ display: block; margin: 0 auto 20px;width:380px; height: 150px; margin-top: 20pxpx; font-size: 20px;}
-    
-        #contato p{ justify-content: center; text-align: center; color: white; font-size: 18px; font-family:'Roboto', sans-serif;padding-top:15px; margin-bottom: 80px;color:#232a31; margin-top: 20px;}
-    
-        #contato .nome {color: #232a31; margin-left: 85px;font-size:19px;}
-        #contato .email{color: #232a31; font-size: 19px;}
-    
-        #dominio1 h2 {text-align: center; justify-content: center;padding-top: 100px;padding-bottom: 20px; font-size:27px; color: #232a31;}
-    
-        #dominio1 input[type="text" ]{width: 45%; padding: 25px ; font-size: 15px; margin-bottom: 25px;}
-    
-    
-         }}
+@media (max-width:425px){ 
 
+    .menu-itens{height: 80px;display: flex; gap:10px; margin-top: 25px; padding: 10px; margin-right:-1px;}
+    
+     .menu-itens a{font-size: 13px; }
+    
+     .btn{padding: 10px;background-color: #2cc76a;border-radius: 15px; opacity: .9;box-shadow: 2px 2px 2px black}
+    
+    .banner-principal h1{text-align: center; color: #fff; font-weight: bolder; font-size: 40px;text-shadow: 5px 5px 5px black; font-family: 'Roboto', sans-serif; margin-top:100px; padding-top: 100px;}
+    
+     .banner-principal p{ text-align: center; color: #fff; font-weight: bolder; font-size: 23px;text-shadow: 5px 5px 5px black; font-family: 'Roboto', sans-serif;margin-top: 30px ;}
+    
+     .logo {width: 35px; height: 35px; margin-top: 27px; margin-left: 15px; margin-bottom: 15px; display: none;}
+    
+     .beneficios ul{display: grid;grid-template-columns: repeat(auto-fit, minmax(30px, 200px));margin-left:-10px; }
         
+     .beneficios li{flex:1 ; width:190px;margin:0 20px; gap:-20px; margin: 0 auto; justify-content: center; text-align: center; margin-left: 145px;}
+    
+    .beneficios p{color: black; line-height:23px; margin-bottom: 15px;text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.507); font-family: 'Roboto', sans-serif; display:none;}
+        
+     .beneficios h2{color: #202b34; text-shadow: 1px 1px 0px white; margin-bottom:15px; margin-top: 15px;font-weight: bolder; font-family: 'Roboto', sans-serif; font-size:30px;}
+        
+    .beneficios p{color: black;text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.507); font-family: 'Roboto', sans-serif; font-size: 16px;}
+        
+    .content-sobre p{ text-align: center; font-size: 14px; width:400px;color: white;text-shadow: 3px 3px 1px black; text-wrap: wrap; padding-left: 20px;}
+    
+    .sobre-nos img{ width: 350px; height: 350px; margin-top:20px; margin-left:20px; border: 4px solid #c4ceda ; margin-right:20px;}
+    
+    #contato textarea{ display: block; margin: 0 auto 20px;width:380px; height: 150px; margin-top: 20pxpx; font-size: 20px;}
+    
+    #contato p{ justify-content: center; text-align: center; color: white; font-size: 18px; font-family:'Roboto', sans-serif;padding-top:15px; margin-bottom: 80px;color:#232a31; margin-top: 20px;}
+    
+    #contato .nome {color: #232a31; margin-left: 85px;font-size:19px;}
+    #contato .email{color: #232a31; font-size: 19px;}
+    
+    #dominio1 h2 {text-align: center; justify-content: center;padding-top: 100px;padding-bottom: 20px; font-size:27px; color: #232a31;}
+    
+    #dominio1 input[type="text" ]{width: 45%; padding: 25px ; font-size: 15px; margin-bottom: 25px;}
+    
+    
+    }
 
-         
-    /* 400*/
-    @media screen and (min-width:400px){ 
+/* 400*/
+@media (max-width:400px){ 
 
     .menu-itens{height: 800px;display: flex; gap:7px; margin-top: 25px; padding: 10px; margin-right:100px;}
 

@@ -77,7 +77,7 @@ CONTEUDO*/
 
 .plano1 .preco1 {width: 120px;height: 120px;border-radius: 50%; background-color: #2cc762; color: white; text-align: center; line-height: 120px; margin: 0 auto -50px; font-size: 20px;position: relative;}
 
-.plano1 .nome-plano{ text-transform: uppercase;font-weight: bolder; background-color: #0c1114; padding: 50px 0; margin-top: 15px;color: #c4ceda; font-family:'Roboto', sans-serif; border-top-left-radius: 15px;border-top--radius: 15px}
+.plano1 .nome-plano{ text-transform: uppercase;font-weight: bolder; background-color: #0c1114; padding: 50px 0; margin-top: 15px;color: #c4ceda; font-family:'Roboto', sans-serif; border-top-left-radius: 15px;border-top-right-radius: 15px}
 
 .plano1 .plano-btn{background-color: #2cc762; color: white;font-family:'Roboto', sans-serif ; height: 75px; line-height: 75px; cursor:pointer;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;}
 
