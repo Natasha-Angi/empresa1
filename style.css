@@ -131,7 +131,7 @@ CONTEUDO*/
 
 #contato h2{ justify-content: center; text-align: center; color: white; font-size: 45px; font-family:'Roboto', sans-serif;padding-top: 90px;color:#232a31;}
 
-#contato p{ justify-content: center; text-align: center; color: white; font-size: 25px; font-family:'Roboto', sans-serif;padding-top:15px; margin-bottom: 30px;color:#232a31}
+#contato p{ justify-content: center; text-align: center; color: white; font-size: 25px; font-family:'Roboto', sans-serif;padding-top:30px; margin-bottom:80px;color:#232a31}
 
 #contato input[type="text" ]{width:15%; padding: 5px ; font-size: 15px; margin-bottom: 25px; display:inline; justify-content: center; text-align: center; margin: 0 10px 20px; border-radius: 15px;flex: 1;}
 

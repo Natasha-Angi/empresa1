@@ -218,7 +218,7 @@
 
     .beneficios ul{display: grid;grid-template-columns: repeat(auto-fit, minmax(30px, 200px));margin-left:-10px; }
     
-    .beneficios li{flex:1 ; width:190px;margin:0 20px; gap:-20px; margin: 0 auto; justify-content: center; text-align: center; margin-left: 145px;}
+    .beneficios li{flex:1 ; width:190px;margin:0 20px; gap:-20px; margin: 0 auto; justify-content: center; text-align: center; margin-left: 120px;}
 
     .beneficios p{color: black; line-height:23px; margin-bottom: 15px;text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.507); font-family: 'Roboto', sans-serif; display:none;}
     
@@ -226,9 +226,9 @@
     
     .beneficios p{color: black;text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.507); font-family: 'Roboto', sans-serif; font-size: 16px;}
     
-    .content-sobre p{ text-align: center; font-size: 14px; width:400px;color: white;text-shadow: 3px 3px 1px black; text-wrap: wrap; padding-left: 20px;}
+    .content-sobre p{ text-align: center; font-size: 14px; width:400px;color: white;text-shadow: 3px 3px 1px black; text-wrap: wrap; padding-left: 10px; padding-right:10px}
 
-    .sobre-nos img{ width: 350px; height: 350px; margin-top:20px; margin-left:20px; border: 4px solid #c4ceda ; margin-right:20px;}
+    .sobre-nos img{ width: 350px; height: 350px; margin-top:20px; margin-left:20px; border: 4px solid #c4ceda ; margin-right:20px;margin-left:25px}
 
     #contato textarea{ display: block; margin: 0 auto 20px;width:380px; height: 150px; margin-top: 20pxpx; font-size: 20px;}
 
@@ -239,7 +239,13 @@
 
     #dominio1 h2 {text-align: center; justify-content: center;padding-top: 100px;padding-bottom: 20px; font-size:27px; color: #232a31;}
 
-    #dominio1 input[type="text" ]{width: 45%; padding: 25px ; font-size: 15px; margin-bottom: 25px;}
+    #dominio1 input[type="text" ]{width: 80%; padding: 15px ; font-size: 15px; margin-bottom: 25px;}
 
 
-     }}
+    #contato input[type="text" ]{width:50%; padding: 5px ; font-size: 15px;  display:block; justify-content: center; text-align: center; margin: -23px 17px 32px; border-radius: 15px;flex: 1; margin-left:100px;}
+
+    #contato .nome {color: #232a31; margin-left: 40px;font-size:19px;display: block; margin-top: 20px;}
+    #contato .email{color: #232a31; font-size: 19px;padding-top: 20px; margin: 0 auto;margin-left: 40px;margin-top: 20px;}
+
+
+     }
